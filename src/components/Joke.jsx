@@ -16,8 +16,8 @@ function Joke() {
 
     return (
         <div>
-            <button onClick={fetchAPI}>Generate Joke</button>
             <h2>{joke}</h2>
+            <button onClick={fetchAPI}>Generate Joke</button>
         </div>
     )
 }
