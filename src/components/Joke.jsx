@@ -15,9 +15,11 @@ function Joke() {
     }
 
     return (
-        <div>
-            <h2>{joke}</h2>
-            <button onClick={fetchAPI}>Generate Joke</button>
+        <div className='joke-card'>
+            <div className="container">
+                <h2>{joke}</h2>
+            </div>
+            <button onClick={fetchAPI}>Generate</button>
         </div>
     )
 }
