@@ -1,13 +1,11 @@
 import Header from './components/Header'
-import Jokes from './components/Jokes'
-import Button from './components/Button'
+import Joke from './components/Joke'
 
 function App() {
   return (
     <div>
       <Header/>
-      <Jokes/>
-      <Button/>
+      <Joke/>
     </div>
   )
 }

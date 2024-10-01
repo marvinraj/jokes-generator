@@ -10,6 +10,7 @@ Generates random joke as user clicks on the button.
 
 ## Reads
 1. [react basics](https://react.dev/learn)
+2. [random jokes api](https://official-joke-api.appspot.com/random_joke)
 
 ## Components for the webapp
 1. header --> title + p
@@ -33,4 +34,5 @@ Generates random joke as user clicks on the button.
 1. decide on the relevant components and structure it
 2. i think i need to get a really good grasp on "props", so i'll use this [link](https://legacy.reactjs.org/tutorial/tutorial.html)
 3. now, i gotta work on understanding responding to/handling events -- [this link helped](https://react.dev/learn)
-4. 
+4. found a public REST APIs on the Postman API network [this](https://www.postman.com/cs-demo/public-rest-apis/documentation/tfzpqfc/public-rest-apis?entity=request-8854915-86a5b520-e907-4eee-95fd-6dcdc24f8a83)
+5. useState, useEffect, fetch 

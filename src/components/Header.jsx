@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className='header'>
         <h1>jokes generator</h1>
-        <p>if you laugh, you die</p>
+        <p>you might <span>not</span> laugh</p>
     </div>
   )
 }
