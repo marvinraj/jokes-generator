@@ -9,6 +9,9 @@ function Joke() {
         fetch("https://official-joke-api.appspot.com/random_joke")
         .then((response) => response.json())
         .then((data) => setJoke(data.setup + " ..... " + data.punchline))
+        .catch((err) => {
+            console.log(err.message);
+        })
     }
 
     return (
