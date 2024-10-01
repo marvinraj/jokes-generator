@@ -5,13 +5,11 @@ Generates random joke as user clicks on the button.
 
 ## Why work on this project? 
     - practice reactjs
-    - brush up on html, css, js
-    - learn how to divide website ui into components
-    - how to use useState
+    - understand react hooks - useState, useEffect
     - understand props
 
 ## Reads
-1. 
+1. [react basics](https://react.dev/learn)
 
 ## Components for the webapp
 1. header --> title + p
@@ -23,5 +21,16 @@ Generates random joke as user clicks on the button.
 2. create all components first
 3. 
 
+## What have i learnt?
+1. conditional rendering
+    - no special syntax, works the same way as regular js
+2. rendering lists
+    - inside a component, use map to transform an array of something into an array of li items
+    - and for each item in a list, it needs to have a key attribute
+    - useState
+
 ## My thought processes as I work on this project
 1. decide on the relevant components and structure it
+2. i think i need to get a really good grasp on "props", so i'll use this [link](https://legacy.reactjs.org/tutorial/tutorial.html)
+3. now, i gotta work on understanding responding to/handling events -- [this link helped](https://react.dev/learn)
+4. 

@@ -23,3 +23,10 @@
 .header p{
   font-weight: 600;
 }
+
+/* button */
+button{
+  border: 1px solid #e0a61e;
+  padding: 12px;
+  border-radius: 10px;
+}
