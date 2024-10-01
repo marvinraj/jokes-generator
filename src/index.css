@@ -1,5 +1,4 @@
 * {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,6 +6,15 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+}
+
+:root{
+  --primary-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --secondary-font: "Indie Flower", cursive;
+}
+
+body{
+  font-family: var(--primary-font);
 }
 
 /* header */
@@ -18,13 +26,19 @@
 }
 
 .header h1{
-  font-weight: 900;
+  font-weight: 700;
+}
+
+.header .title{
+  font-family: var(--secondary-font);
+  color: #ebb946;
+  font-style: italic;
+  font-size: 50px;
 }
 
 .header span{
+  color: #ebb946;
   font-style: italic;
-  font-weight: 600;
-  color: goldenrod;
 }
 
 .header p{
@@ -52,8 +66,8 @@
 }
 
 button{
-  border: 1px solid #e0a61e;
-  background-color: #e0a61e;
+  border: 1px solid #ebb946;
+  background-color: #ebb946;
   color:#242424;
   font-size: 18px;
   font-weight: 700;
@@ -71,4 +85,12 @@ button:hover{
 .footer{
   text-align: center;
   margin-top: 150px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer h4{
+  padding-top: 15px;
+  letter-spacing: 1px;
 }
