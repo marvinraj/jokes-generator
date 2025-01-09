@@ -1,8 +1,6 @@
-# Jokes Generator - ReactJS
-
 ![alt text](src/assets/screely-1736409609721.png)
 
-## About this project
+# Jokes Generator - ReactJS
 Generates random joke as user clicks on the button.
 
 ## Why work on this project? 
