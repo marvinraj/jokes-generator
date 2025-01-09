@@ -1,4 +1,4 @@
-![alt text](src/assets/screely-1736409609721.png)
+![alt text](src/assets/screely-1736409775670.png)
 
 # Jokes Generator - ReactJS
 Generates random joke as user clicks on the button.
